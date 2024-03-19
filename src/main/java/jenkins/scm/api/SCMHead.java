@@ -175,7 +175,7 @@ public class SCMHead implements SCMHeadMixin {
      * @return true if and only if the two objects are equal.
      */
     @Override
-    public final boolean equals(Object o) {
+    public boolean equals(Object o) {
         if (this == o) {
             return true;
         }
@@ -199,7 +199,7 @@ public class SCMHead implements SCMHeadMixin {
      * {@inheritDoc}
      */
     @Override
-    public final int hashCode() {
+    public int hashCode() {
         return name.hashCode();
     }
 
